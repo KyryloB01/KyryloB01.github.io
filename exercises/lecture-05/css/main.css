@@ -1,0 +1,47 @@
+.body {
+  background: linear-gradient(to right,
+    lightgreen 5%,
+    #80c080 17%,
+    #4caf50 40%,
+    #2e7d32 85%,
+    darkgreen 95%
+  );
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+.negative {
+  background: linear-gradient(to left,
+    lightblue -50%,
+    #64b5f6 -10%,
+    #2196f3 0%,
+    #0d47a1 100%,
+    darkblue 150%
+  );
+  padding: 1rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.percents {
+  background: linear-gradient(to bottom,
+    lightgreen 2em,
+    #a5d6a7 4em,
+    #81c784 8em,
+    #66bb6a 16em,
+    #4caf50 32em,
+    #388e3c 64em,
+    #1b5e20 128em
+  );
+  padding: 1rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.radial {
+  background:
+    radial-gradient(ellipse at top, orange, transparent),
+    radial-gradient(ellipse at bottom, red, transparent);
+  padding: 1rem;
+  color: white;
+}
