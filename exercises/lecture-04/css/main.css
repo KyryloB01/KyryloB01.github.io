@@ -1,0 +1,61 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+  font-size: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.4rem; 
+}
+
+h1, h2, h3 {
+  color: gray;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 1.45rem; 
+}
+
+h2 {
+  font-size: 1.3rem; 
+}
+
+#main {
+  color: #e60202;
+}
+
+.h2 {
+  color: red;
+}
+
+.heading {
+  color: green;
+}
+
+div {
+  font-size: 1.6em; 
+}
+
+span {
+  font-size: 1.6em; 
+
+strong {
+  font-size: 1.6rem; 
+}
+
+.list-unstyled {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-social a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 5px;
+}
