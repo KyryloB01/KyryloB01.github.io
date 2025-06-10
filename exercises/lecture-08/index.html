@@ -7,6 +7,34 @@
   <title>Exercises for lecture #8</title>
 </head>
 <body>
- 
+ <header>
+    <h1>CSS Grid Layout</h1>
+  </header>
+
+  <article class="grid1">...</article>
+  <article class="grid2">...</article>
+  <article class="grid3">...</article>
+  <article class="grid4">...</article>
+  <article class="grid5">...</article>
+  <article class="grid6">...</article>
+  <article class="grid7">...</article>
+  <article class="grid8">...</article>
+  <article class="grid9">...</article>
+  <article class="grid10">...</article>
+  <article class="grid11">...</article>
+  <article class="grid12">...</article>
+  <article class="grid13">...</article>
+
+  <script>
+    document.querySelectorAll("article").forEach(article => {
+      for (let i = 1; i <= 12; i++) {
+        const div = document.createElement("div");
+        div.textContent = i;
+        article.appendChild(div);
+      }
+    });
+  </script>
+    </section>
+
 </body>
 </html>
