@@ -53,7 +53,7 @@ strong {
 }
 footer > section {
   display: flex;
-  gap: 40px
+  gap: 40px;
   justify-content: center;
   align-items: flex-start;
 }
