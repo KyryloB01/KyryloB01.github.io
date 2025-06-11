@@ -41,6 +41,7 @@ div {
 
 span {
   font-size: 1.6em; 
+}
 
 strong {
   font-size: 1.6rem; 
@@ -49,6 +50,12 @@ strong {
 .list-unstyled {
   list-style: none;
   padding: 0;
+}
+footer > section {
+  display: flex;
+  gap: 40px
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .footer-social a {
