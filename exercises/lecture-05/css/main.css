@@ -5,10 +5,11 @@ body {
     #4caf50 40%,
     #2e7d32 85%,
     darkgreen 95%
-  );
+  ) !important;
   padding: 2rem;
   font-family: sans-serif;
 }
+
 
 .negative {
   background: linear-gradient(to left,
