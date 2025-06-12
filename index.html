@@ -4,62 +4,51 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Моя Домашня Сторінка</title>
-  <!-- <link rel="stylesheet" href="lecture-04/css/main.css" /> -->
-  <link rel="stylesheet" href="lecture-05/css/main.css" />
-
+  <link rel="stylesheet" href="css/main.css" />
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 
   <style>
     body {
       margin: 0;
       font-family: sans-serif;
-      background: linear-gradient(135deg, #e0f7fa, #80deea); /* 🎨 Ось фон */
+      background: linear-gradient(135deg, #e0f7fa, #80deea);
       min-height: 100vh;
       padding: 20px;
     }
-
     nav {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
       margin-bottom: 20px;
     }
-
     nav a {
       display: block;
       margin-bottom: 8px;
       text-decoration: none;
       color: #000;
     }
-
     nav a:hover {
       text-decoration: underline;
     }
-
     .footer-main {
       display: flex;
       gap: 40px;
       margin-top: 40px;
     }
-
     .footer-main ul {
       list-style: none;
       padding-left: 0;
     }
-
     .footer-main h2 {
       margin-bottom: 10px;
     }
-
     .footer-social {
       list-style: none;
       padding-left: 0;
     }
-
     .footer-social li {
       margin-bottom: 5px;
     }
-
     .percents, .negative, .radial {
       margin-top: 20px;
       padding: 20px;
@@ -67,15 +56,12 @@
       font-weight: bold;
       border-radius: 8px;
     }
-
     .percents {
       background: linear-gradient(to right, #ff9800, #f44336);
     }
-
     .negative {
       background: linear-gradient(to right, #4caf50, #2e7d32);
     }
-
     .radial {
       background: radial-gradient(circle, #2196f3, #3f51b5);
     }
@@ -167,6 +153,17 @@
         <line x1="100" y1="100" x2="160" y2="100" stroke="black" stroke-width="4"/>
         <line x1="100" y1="100" x2="100" y2="50" stroke="gray" stroke-width="2"/>
       </svg>
+    </section>
+
+    <section class="page-container">
+      <h2>Box Model Demonstration</h2>
+
+      <div class="box1">Це box1 з content-box</div>
+      <div class="box2">Це box2 з border-box</div>
+
+      <p>
+        Текст перед <span class="inline-box">inline span</span> і текст після.
+      </p>
     </section>
   </main>
 
