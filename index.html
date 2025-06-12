@@ -10,6 +10,14 @@
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 
   <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: linear-gradient(135deg, #e0f7fa, #80deea); /* 🎨 Ось фон */
+      min-height: 100vh;
+      padding: 20px;
+    }
+
     nav {
       display: flex;
       flex-direction: column;
@@ -26,6 +34,50 @@
 
     nav a:hover {
       text-decoration: underline;
+    }
+
+    .footer-main {
+      display: flex;
+      gap: 40px;
+      margin-top: 40px;
+    }
+
+    .footer-main ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .footer-main h2 {
+      margin-bottom: 10px;
+    }
+
+    .footer-social {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .footer-social li {
+      margin-bottom: 5px;
+    }
+
+    .percents, .negative, .radial {
+      margin-top: 20px;
+      padding: 20px;
+      color: white;
+      font-weight: bold;
+      border-radius: 8px;
+    }
+
+    .percents {
+      background: linear-gradient(to right, #ff9800, #f44336);
+    }
+
+    .negative {
+      background: linear-gradient(to right, #4caf50, #2e7d32);
+    }
+
+    .radial {
+      background: radial-gradient(circle, #2196f3, #3f51b5);
     }
   </style>
 </head>
