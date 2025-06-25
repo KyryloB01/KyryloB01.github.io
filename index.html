@@ -181,6 +181,189 @@
   </div>
 </section>
 
+<h1>Lecture 07</h1>
+<section class="lecture-07">
+  <nav class="nav">
+    <span>Brand Name</span>
+    <ul class="link-list">
+      <li class="link"><a href="#">Home</a></li>
+      <li class="link"><a href="#">Pricing</a></li>
+      <li class="link"><a href="#">About</a></li>
+      <li class="link"><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <h2>CSS Flex Property</h2>
+  <div class="wrapper">
+    <div class="item item-blue">CSS</div>
+    <div class="item item-orange">Flex</div>
+    <div class="item item-green">Property</div>
+  </div>
+
+  <h2>CSS flex-grow Property</h2>
+  <div class="grow-wrapper">
+    <div class="item item-blue">Blue</div>
+    <div class="item item-orange">Orange</div>
+    <div class="item item-green">Green</div>
+  </div>
+
+  <ul role="list" class="flexbox">
+    <li class="card">
+      <h3>Lorem, ipsum.</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </li>
+    <li class="card">
+      <h3>Minus, pariatur?</h3>
+      <p>Veritatis optio illum possimus eveniet exercitationem perferendis ad?</p>
+    </li>
+    <li class="card">
+      <h3>Iste, assumenda!</h3>
+      <p>Esse minima in maiores similique unde eaque nostrum!</p>
+    </li>
+    <li class="card">
+      <h3>Lorem, ipsum.</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </li>
+    <li class="card">
+      <h3>Minus, pariatur?</h3>
+      <p>Veritatis optio illum possimus eveniet exercitationem perferendis ad?</p>
+    </li>
+    <li class="card">
+      <h3>Iste, assumenda!</h3>
+      <p>Esse minima in maiores similique unde eaque nostrum!</p>
+    </li>
+  </ul>
+</section>
+<hr />
+
+<h1>Lecture 08</h1>
+<section class="lecture-08">
+  <header>
+    <h1>CSS Grid Layout</h1>
+  </header>
+
+  <article class="grid1">...</article>
+  <article class="grid2">...</article>
+  <article class="grid3">...</article>
+  <article class="grid4">...</article>
+  <article class="grid5">...</article>
+  <article class="grid6">...</article>
+  <article class="grid7">...</article>
+  <article class="grid8">...</article>
+  <article class="grid9">...</article>
+  <article class="grid10">...</article>
+  <article class="grid11">...</article>
+  <article class="grid12">...</article>
+  <article class="grid13">...</article>
+
+  <script>
+    document.querySelectorAll("article").forEach(article => {
+      for (let i = 1; i <= 12; i++) {
+        const div = document.createElement("div");
+        div.textContent = i;
+        article.appendChild(div);
+      }
+    });
+  </script>
+</section>
+<hr />
+
+<h1>Lecture 09</h1>
+<section class="lecture-09">
+  <div class="container">
+    <div class="grid-container">
+      
+      <div class="header grid-item red">
+        <h1>Чуйний дизайн</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+      
+      <div class="sidebar grid-item blue">
+        <h2>Sidebar</h2>
+        <ul>
+          <li>List Item 1</li>
+          <li>List Item 2</li>
+          <li>List Item 3</li>
+          <li>List Item 4</li>
+          <li>List Item 5</li>
+          <li>List Item 6</li>
+        </ul>
+      </div>
+      
+      <div class="main grid-item green">
+        <h2>Main Content</h2>
+        <p>
+          This text has a font size of 20px at viewport width of 768px and
+          font size of 36px when viewport width is 1920px. But if the viewport
+          width is less than 768px, the font-size won't get lower than 16px
+          and if the viewport width is more than 1920px font size will stop
+          scaling at 48px.
+        </p>
+        <p>
+          This text has a font size of 20px at viewport width of 768px and
+          font size of 36px when viewport width is 1920px. But if the viewport
+          width is less than 768px, the font-size won't get lower than 16px
+          and if the viewport width is more than 1920px font size will stop
+          scaling at 48px.
+        </p>
+      </div>
+      
+      <div class="footer grid-item orange">
+        <h3>Footer</h3>
+        <p>
+          This text has a font size of 20px at viewport width of 768px and
+          font size of 36px when viewport width is 1920px. But if the viewport
+          width is less than 768px, the font-size won't get lower than 16px
+          and if the viewport width is more than 1920px font size will stop
+          scaling at 48px.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+<hr />
+
+<h1>Lecture 10</h1>
+<section class="lecture-10">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transform explanation</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+<div class="box">
+    <div class="scale-element">
+      Цей елемент має 20 пікселів у ширину та 20 пікселів у висоту, але, якщо для функції масштабування встановлено значення 10, він тепер має 100 пікселів у ширину та 400 пікселів у висоту. Ця властивість також впливає на текст, відступи та поля.
+    </div>
+  </div>
+
+  <div class="box">
+    <div class="skew-element"></div>
+    <div class="skew-element"></div>
+    <div class="skew-element"></div>
+  </div>
+
+  <div class="box">
+    <div class="rotate-element"></div>
+    <div class="rotate-element"></div>
+    <div class="rotate-element"></div>
+  </div>
+
+  <div class="box">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus porro officia...</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus unde, quis...</p>
+    <div class="square"></div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum sit aperiam...</p>
+  </div>
+</section>
+<hr />
+
+
+
   </main>
 
   <footer style="text-align: center; margin-top: 40px; padding: 20px; color: #777;">
