@@ -4,4 +4,12 @@
   margin: 0;
   padding: 0;
 }
+.dark-theme {
+  background-color: #222;
+  color: #eee;
+}
+
+body {
+  font-family: sans-serif;
+}
 
