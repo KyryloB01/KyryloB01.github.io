@@ -1,3 +1,4 @@
+/* === Контейнер сторінки === */
 .container {
   border: 3px solid darkgray;
   padding: 20px;
@@ -5,6 +6,7 @@
   margin: 0 auto;
 }
 
+/* === Загальні стилі для блоків === */
 .box {
   border: 5px solid rebeccapurple;
   background-color: lightgray;
@@ -14,10 +16,12 @@
   height: 150px;
 }
 
+/* === Демонстрація box-sizing: content-box === */
 .box1 {
-  box-sizing: content-box; 
+  box-sizing: content-box;
 }
 
+/* === Демонстрація box-sizing: border-box === */
 .box2 {
   box-sizing: border-box;
   border: 5px dashed black;
@@ -28,8 +32,9 @@
   margin-left: 2em;
 }
 
+/* === Стилі для внутрішніх елементів box === */
 .box span {
-  display: inline-block; 
+  display: inline-block;
   background-color: pink;
   border: 5px solid black;
   padding: 1em;
